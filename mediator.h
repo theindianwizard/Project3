@@ -45,7 +45,9 @@ class CarControls : public Mediator {
         void TurnOnAC();
         void TurnOffAC();
         void AdjustAC(int amount);
-        int GetSpeed(int amount);
+        int GetSpeed();
         CarControls() : Mediator() {}
 };
-#endif \\MEDIATOR_H_INCLUDED
+
+
+#endif // MEDIATOR_H_INCLUDED
